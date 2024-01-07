@@ -83,9 +83,8 @@ author:
   name             : "Sumer S. Vaid"
   avatar           : "profile.png"
   bio              : "Computational media psychologist researching psychological fit, digital media and wellbeing. "
-  location         : "Location"
+  location         : "Boston, MA" 
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=vaamhuwAAAAJ&hl=en"
   email            : "sumer@stanford.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
