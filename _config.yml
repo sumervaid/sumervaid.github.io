@@ -69,7 +69,9 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
+      - label: "CV"
+      icon: "far fa-fw fa-file-pdf"
+      url: "/Vaid_CV_Jan2024.pdf"
 
 # Analytics
 analytics:
@@ -103,17 +105,8 @@ author:
   lastfm           :
   linkedin         :
   orcid            : "https://orcid.org/0000-0002-6320-5498"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
   twitter          : "sumervaid1"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+
 
 
 # Reading Files
