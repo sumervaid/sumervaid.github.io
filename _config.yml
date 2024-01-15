@@ -69,10 +69,6 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-      - label: "CV"
-      icon: "far fa-fw fa-file-pdf"
-      url: "/Vaid_CV_Jan2024.pdf"
-
 # Analytics
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
