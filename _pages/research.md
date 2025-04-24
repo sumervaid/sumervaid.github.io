@@ -1,7 +1,7 @@
 ---
+layout: default
 title: "Research"
 permalink: /research/
-layout: single
 author_profile: true
 header:
   overlay_image: /assets/images/research-header.jpg

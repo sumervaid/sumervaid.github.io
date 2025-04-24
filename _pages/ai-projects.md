@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "AI Projects"
 permalink: /ai-projects/
 author_profile: true

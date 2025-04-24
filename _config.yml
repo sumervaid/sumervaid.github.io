@@ -5,7 +5,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sumervaid.github.io" # GitHub Pages URL
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.27.0"
+theme: jekyll-theme-primer
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
@@ -19,7 +20,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: default
       author_profile: true
       share: true
       related: true
