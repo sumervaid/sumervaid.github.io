@@ -2,8 +2,7 @@ title: Sumer Vaid
 description: >- # this means to ignore newlines until "baseurl:"
   Personal academic website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sumervaid.com" # your domain
-domain: "sumervaid.com"      # your domain without protocol
+url: "https://sumervaid.github.io" # GitHub Pages URL
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.0"
