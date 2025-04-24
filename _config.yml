@@ -6,6 +6,8 @@ url: "https://sumervaid.github.io" # GitHub Pages URL
 
 # Build settings
 theme: jekyll-theme-primer
+primer:
+  color_scheme: dark
 
 plugins:
   - jekyll-include-cache
