@@ -1,0 +1,112 @@
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// Neon Theme Variables
+:root {
+  --neon-primary: #00ff9d;
+  --neon-secondary: #00b8ff;
+  --neon-background: #0a0a0a;
+  --neon-text: #ffffff;
+  --neon-accent: #ff00ff;
+  --neon-shadow: 0 0 10px var(--neon-primary),
+                 0 0 20px var(--neon-primary),
+                 0 0 30px var(--neon-primary);
+}
+
+// Dark Mode Toggle
+.theme-toggle {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 100;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+  }
+}
+
+// Neon Theme Styles
+body.neon-theme {
+  background-color: var(--neon-background);
+  color: var(--neon-text);
+  transition: all 0.5s ease;
+
+  .page {
+    background-color: var(--neon-background);
+  }
+
+  a {
+    color: var(--neon-primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: var(--neon-secondary);
+      text-shadow: var(--neon-shadow);
+    }
+  }
+
+  .site-title {
+    color: var(--neon-primary);
+    text-shadow: var(--neon-shadow);
+  }
+
+  .site-subtitle {
+    color: var(--neon-secondary);
+  }
+
+  .masthead {
+    background-color: rgba(10, 10, 10, 0.9);
+    border-bottom: 1px solid var(--neon-primary);
+  }
+
+  .nav-links {
+    a {
+      color: var(--neon-text);
+      
+      &:hover {
+        color: var(--neon-primary);
+        text-shadow: var(--neon-shadow);
+      }
+    }
+  }
+
+  .page__content {
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--neon-primary);
+    }
+  }
+
+  .archive__item {
+    border: 1px solid var(--neon-primary);
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: var(--neon-shadow);
+    }
+  }
+}
+
+// Smooth Transitions
+.page {
+  transition: all 0.5s ease;
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: 0.5em;
+    right: 0.5em;
+  }
+} 
