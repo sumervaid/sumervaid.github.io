@@ -7,7 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-minimal_mistakes_skin: "air"
+theme                    : minimal-mistakes-jekyll
+minimal_mistakes_skin    : "dark"
 title                    : "Sumer S. Vaid"
 title_separator          : "-"
 name                     : &name "Sumer S. Vaid"
