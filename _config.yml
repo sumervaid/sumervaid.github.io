@@ -7,7 +7,6 @@
 
 # Site Settings
 locale                   : "en-US"
-theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
 title                    : "Sumer S. Vaid"
 title_separator          : "-"
