@@ -25,8 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "Sumer S. Vaid"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral Research Associate at Harvard Business School / Stanford PhD"
-  location         : "Earth"
+  bio              : "Postdoctoral Research Associate at Harvard Business School. Stanford PhD in Media Psychology."
+  location         : "Boston, MA"
   employer         : "Harvard Business School"
   uri              : "https://sumervaid.github.io"
   email            : "sumer[at]hbs.edu" 
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
